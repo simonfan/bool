@@ -1,0 +1,138 @@
+{
+    "project": {
+        "name": "bool",
+        "version": "0.0.0"
+    },
+    "files": {
+        "js/index.js": {
+            "name": "js/index.js",
+            "modules": {
+                "Bool": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Bool": {
+            "name": "Bool",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "js/index.js",
+            "line": 5,
+            "description": "AMD and CJS module."
+        }
+    },
+    "classes": {},
+    "classitems": [
+        {
+            "file": "js/index.js",
+            "line": 22,
+            "description": "Single condition and single value.",
+            "params": [
+                {
+                    "name": "condition",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "value",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Bool"
+        },
+        {
+            "file": "js/index.js",
+            "line": 47,
+            "description": "Defines a boolean evaluator.",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Bool"
+        },
+        {
+            "file": "js/index.js",
+            "line": 57,
+            "description": "Single condition, either single value or multiple values.",
+            "params": [
+                {
+                    "name": "condition",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "values",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Bool"
+        },
+        {
+            "file": "js/index.js",
+            "line": 78,
+            "description": "Multiple conditions and multiple values.",
+            "params": [
+                {
+                    "name": "conditions",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "values",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Bool"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nSingle condition and single value.",
+            "line": " js/index.js:22"
+        },
+        {
+            "message": "Missing item type\nDefines a boolean evaluator.",
+            "line": " js/index.js:47"
+        },
+        {
+            "message": "Missing item type\nSingle condition, either single value or multiple values.",
+            "line": " js/index.js:57"
+        },
+        {
+            "message": "Missing item type\nMultiple conditions and multiple values.",
+            "line": " js/index.js:78"
+        }
+    ]
+}

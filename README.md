@@ -1,0 +1,3 @@
+# bool[![Build Status](https://secure.travis-ci.org/simonfan/bool.png?branch=master)](http://travis-ci.org/simonfan/bool)
+
+Some module...
